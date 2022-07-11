@@ -284,7 +284,7 @@ const data = [
 ];
 function App() {
   return (
-    [...Array(30)].map((number) => {
+    [...Array(15)].map((number) => {
       return <ComposedChart
       width={500}
       height={400}
